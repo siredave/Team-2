@@ -37,6 +37,7 @@ body {
   list-style: none;
 }
 
+
 .container-cover header nav button {
   border: none;
   padding: 10px 15px;
@@ -44,8 +45,78 @@ body {
   border-radius: 8px;
   color: #fff;
 }
+
 /* section 1 */
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+
+}
+.hero .container h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: rgba(0px,0px,20px);
+    text-align: center;
+    color: brown;
+
+}
+.hero .container p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    max-width: 60%;
+}
 
 /* section 2*/
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.fcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+    color: #ffcc00;
+}
+
